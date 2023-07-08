@@ -1,6 +1,7 @@
 import { Counter } from "./components/counter";
 import { Text } from "./components/Text";
 import "./App.css"
+import { SingleLight } from "./components/SingleLight";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
         <Counter text={"rows"} count={0} /> 
         <Counter text={"columns"} count={0} /> 
       </nav>
+      <div>
+        <SingleLight />
+      </div>
     </div>
   );
 }
